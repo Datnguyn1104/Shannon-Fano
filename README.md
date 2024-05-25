@@ -7,4 +7,5 @@
 4. Chuột phải, chọn git Bash here
 5. Dùng lệnh "git clone ", chuột phải paste link đã copy, enter
 
-
+** CÁCH PUSH và PULL các thay đổi **
+1. git push 
