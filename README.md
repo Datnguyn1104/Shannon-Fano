@@ -1,11 +1,10 @@
 # Shannon-Fano
 
-** CÁCH CLONE project VỀ MÁY **
-1. Bấm vào <> Code
-2. Copy link trong HTTPS
-3. Mở thư mục muốn lưu trong Documents
-4. Chuột phải, chọn git Bash here
-5. Dùng lệnh "git clone ", chuột phải paste link đã copy, enter
+Ý tưởng:
 
-** CÁCH PUSH và PULL các thay đổi **
-1. git push 
+1. Tin x được tạo thành từ tên x, number là số thứ tự, xác suất, 1 vector "bin" để tạo nên từ mã hoàn chỉnh.
+2. Tạo ra 1 mảng động để lưu trữ tin x nhập vào từ bàn phím.
+3. Sắp xếp lại nguồn tin theo thứ tự xác suất giảm dần.
+4. Chia nguồn tin thành 2 nhóm có tổng xác suất xấp xỉ bằng nhau. Tiếp tục sử dụng đệ quy với 2 nhóm vừa chia (đánh số lần lượt cho mỗi 2 nhóm tạo ra là 0 và 1).
+5. In ra từ mã hoàn chỉnh cho mỗi tin.
+6. Tính entropy H(X), độ dài từ mã trung bình, hệ số nén thống kê (Kt)

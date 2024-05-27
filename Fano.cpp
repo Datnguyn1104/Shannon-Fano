@@ -46,7 +46,6 @@ void SapXep_XacSuatNguonTin (tin_x*& ptr, int n){
 }
 
 void ChiaNhom_NguonTin (tin_x* ptr, int n){
-    int j=0;
     if (n > 1){
         // sum_arr de tinh tong xac suat ca nguon tin
         double sum_p = 0;
